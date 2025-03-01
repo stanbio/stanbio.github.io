@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "stanbio.github.io"
+  title: "StanBio Connect"
   navbar:
     left:
       - href: index.qmd
@@ -12,7 +12,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - lumen
       - brand
     css: styles.css
     toc: true

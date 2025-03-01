@@ -2,8 +2,23 @@
 title: "About"
 ---
 
-About this site
+::: {.callout-note}
+What is StanBio Connect?
+:::
 
-```{r}
-1 + 1
-```
+StanBio connect ...
+
+::: {.callout-note}
+Why Stan for Biomedical Applications?
+:::
+
+ (Explain the impact of probabilistic modeling and Bayesian inference in biomedical research)
+
+::: {.callout-note}
+Who Should Attend?
+:::
+
+(Researchers, clinicians, statisticians, data scientists, etc.)
+
+
+
