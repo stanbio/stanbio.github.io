@@ -5,7 +5,7 @@ subtitle: "Advancing Biomedical Research with Stan"
 
 ![](stanbio.png){fig-align="center"}
 
-StanBio is a free, one-day online conference that will take place on Friday, 30 May 2025 from 9 am to 4 pm ET. We are interested in broad applictions of Stan in biomedicine including drug discovory and development, medical devices, health economics, real-world evidence, and decision-making under uncertainty. If you are developing Stan models and want to show off your work, we hope you would consider [submitting an anstract](https://bit.ly/stanbio2025-abstract).
+StanBio is a free, one-day online conference that will take place on Friday, 30 May 2025 from 9 am to 4 pm ET. We are interested in broad applictions of Stan in biomedicine including drug discovory and development, medical devices, health economics, real-world evidence, and decision-making under uncertainty. If you are developing Stan models and want to show off your work, we hope you would consider [submitting an anstract](https://bit.ly/stanbio2025-abstract). We are planning for keynotes to be about 45 minutes and regular talks to be about 20 minutes long. 
 
 To reserve your spot, please register [here](https://bit.ly/stanbio2025).
 

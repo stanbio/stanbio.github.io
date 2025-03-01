@@ -6,7 +6,7 @@ title: "About"
 What is StanBio Connect?
 :::
 
-StanBio Connect is a conference dedicated to exploring and advancing the use of Stan in biomedical research. It brings together statisticians, data scientists, clinicians, and researchers who leverage probabilistic modeling and Bayesian inference to tackle challenges in medicine, public health, and life sciences. The conference aims to cover topics such as clinical trial analysis, survival modeling, pharmacometrics, and personalized medicine. StanBio Connect serves as a platform for knowledge sharing, fostering collaboration between academic institutions, industry professionals, and regulatory agencies. Whether you are an experienced Stan user or new to Bayesian modeling, this conference provides an opportunity to learn, network, and contribute to the growing intersection of Bayesian computation and biomedical science.
+StanBio Connect is a conference dedicated to exploring and advancing the use of Stan in biomedical research. It brings together statisticians, data scientists, clinicians, and researchers who leverage probabilistic modeling and Bayesian inference to tackle challenges in medicine, public health, and life sciences. The conference aims to cover topics such as drug discovery, clinical trial analysis, survival modeling, pharmacometrics, health policy, RWE, and personalized medicine. StanBio Connect serves as a platform for knowledge sharing, fostering collaboration between academic institutions, industry professionals, and regulatory agencies. Whether you are an experienced Stan user or new to Bayesian modeling, this conference provides an opportunity to learn, network, and contribute to the growing intersection of Bayesian computation and biomedical science.
 
 ::: {.callout-note title="Question"}
 Why Stan for Biomedical Applications?
@@ -19,6 +19,23 @@ Who Should Attend?
 :::
 
 We welcome researchers, students, clinicians, statisticians, data scientists, and innocent bystanders. 
+
+::: {.callout-note title="Question"}
+If I am a presenter, do you need my slides ahead of time?
+:::
+
+No! We don't need to pre-screen your slides; we hate it when other organizers ask us to submit them beforehand. However, if you are not an expert presenter, we have some recommendations for you. First of all, you should check out "[Confessions of a Public Speaker](https://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959?ie=UTF8&tag=scottberkunco-20)" by Scott Berkun. Second, we offer a 30-minute session to review your slides and give you pointers on improving them. We promise not to be annoying about it. If you are interested, simply indicate so on the [abstract submission form](https://bit.ly/stanbio2025-abstract).
+
+::: {.callout-note title="Question"}
+What equipment do I need?
+:::
+
+If you are an attendee, you don't need anything other than a browser. There are no plugins or external applications to install. If you are a presenter, you need good lighting, fast internet, and a high-quality microphone. If you don't have a high-quality microphone, let us know and we will buy one for you. Yes, you heard that right, we really care about quality video/audio.
+
+
+
+
+
 
 
 
