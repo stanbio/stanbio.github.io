@@ -3,7 +3,11 @@ project:
 
 website:
   title: "StanBio Connect"
+  favicon: stan-logo.png
+  twitter-card: true
+  site-url: https://stanbio.github.io/
   navbar:
+    logo: images/stan-logo.png
     left:
       - href: index.qmd
         text: Home
@@ -12,8 +16,8 @@ website:
 format:
   html:
     theme:
-      - lumen
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
