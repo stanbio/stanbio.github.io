@@ -1,1 +1,1 @@
-Sitemap: https://stanbio.org/sitemap.xml
+Sitemap: https://stanbio.github.io/sitemap.xml
