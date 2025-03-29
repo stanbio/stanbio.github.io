@@ -30,3 +30,5 @@ If you have any questions, please send an email to eric dot novik at nyu.edu.
 ## Sponsors
 
 StanBio is a non-profit conference organized by volunteers. If you are interested in suppporting the conference and the Stan ecosystem, please consider sponsoring this event. The funds will go directly to Stan via [NumFocus](https://numfocus.org/project/stan).
+
+<span style="font-size: 15px;">Graphics design by [Vladimir Leibgam](https://www.sever-design.com/)</span>
