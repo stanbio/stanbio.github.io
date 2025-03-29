@@ -2,15 +2,16 @@ project:
   type: website
 
 website:
-  title: "StanBio Connect"
+  title: "StanBio"
   favicon: stan-logo.png
   twitter-card: true
   site-url: https://stanbio.github.io/
   navbar:
-    logo: images/stan-logo.png
+    logo: images/Favicon_48.png
     left:
       - href: index.qmd
         text: Home
+      - abstracts.qmd
       - about.qmd
 
 format:

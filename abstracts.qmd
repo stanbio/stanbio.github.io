@@ -1,0 +1,34 @@
+---
+title: "Abstracts"
+---
+
+This is a partial list of abstracts by confirmed speakers.
+
+::: {.callout-note title="Andrew Gelman, Columbia University"}
+Taking Our Models Seriously
+:::
+
+In biomedical research we often use models that are "mechanistic" rather than "phenomenological":  that is, we try to model an underlying process rather than simply fitting a curve.  Mechanistic models are necessary for inference with latent variables (as in pharmacology when there is interest in concentration within an internal organ) and useful for learning and extrapolating from sparse data.  We discuss statistical and computational challenges we have resolved, along with some open problems.
+
+::: {.callout-note title="Arman Oganisian, Brown University"}
+Bayesian Causal Inference with Survival Outcomes
+:::
+
+When randomized control trials are infeasible, observational studies are often conducted to estimate causal effects of treatment on survival outcomes. Since treatments are not randomized in observational studies, formal causal inference techniques are required to adjust for observed confounding. The Bayesian approach to causal estimation is desirable because it provides 1) prior smoothing of causal effect estimates, 2) flexible semiparametric models that are robust to misspecification, 3) posterior uncertainty quantification for causal effects. In this talk, we will first discuss Bayesian causal inference methods that accommodate the unique complexities of survival outcomes. Second, we showcase how these methods can be implemented using our open-source R package, causalBETA (“B”ayesian “E”vent “T”ime “A”nalysis). This package provides an intuitive user interface, custom S3 classes for easy plotting and diagnostics, and back-ends to Stan for efficient Markov Chain Monte Carlo (MCMC) sampling.
+
+::: {.callout-note title="Robert Grant, BayesCamp"}
+Bayesian meta-analysis can solve many problems in evidence synthesis, and is easier than you think
+:::
+
+Meta-analysis presents several methodological challenges when synthesizing evidence across studies, particularly in scenarios where conventional asymptotic approximations become unreliable. Bayesian methods offer a natural framework for evidence synthesis through their flexible treatment of uncertainty. The Bayesian paradigm accommodates sparse data structures, evidence beyond the study data, systematic biases, and missing study information. It leads to probabilistic outputs that directly address decision-makers' needs and allow easier interpretation.
+
+We present findings from our comprehensive review of models and software in a new book, “Bayesian Meta-Analysis: a practical introduction”, and from a scoping review and its ongoing update. This has shown the potential for many widespread problems in meta-analysis to be addressed in the near future.
+
+We challenge the perception that Bayesian methods are inaccessible to non-statistical researchers, illustrating simple and flexible implementation in Stan and brms. Bayesian meta-analysis extends naturally to network meta-analysis and living evidence synthesis from its foundations as a class of multilevel models. We also present practical guidance on prior specification and model validation to complete a reliable Bayesian workflow. Importantly, regulatory agencies and major journals increasingly recognize the value of Bayesian meta-analytic approaches, reflecting their growing adoption in high-impact research synthesis.
+
+
+
+
+
+
+
