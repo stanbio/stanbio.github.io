@@ -2,8 +2,6 @@
 title: "Abstracts"
 ---
 
-This is a partial list of abstracts by confirmed speakers.
-
 ::: {.callout-note title="Andrew Gelman, Columbia University"}
 Taking Our Models Seriously
 :::
@@ -26,6 +24,44 @@ We present findings from our comprehensive review of models and software in a ne
 
 We challenge the perception that Bayesian methods are inaccessible to non-statistical researchers, illustrating simple and flexible implementation in Stan and brms. Bayesian meta-analysis extends naturally to network meta-analysis and living evidence synthesis from its foundations as a class of multilevel models. We also present practical guidance on prior specification and model validation to complete a reliable Bayesian workflow. Importantly, regulatory agencies and major journals increasingly recognize the value of Bayesian meta-analytic approaches, reflecting their growing adoption in high-impact research synthesis.
 
+::: {.callout-note title="Xinxin Chen, University of North Carolina at Chapel Hill"}
+hdbayes: An R Package for Bayesian Historical Data Borrowing with Stan
+:::
+
+The use of historical data to inform prior distributions has gained increasing attention in biomedical research. While numerous methods for incorporating historical data have been proposed, their implementation remains a challenge due to limited software accessibility. Where software does exist, the implementations between different methods could vary substantially, making direct comparisons between approaches difficult. To address this gap, we introduce hdbayes, an R package that provides a unified and accessible framework for Bayesian historical data borrowing.  The package implements several widely used methods, including the power prior, normalized power prior, Bayesian hierarchical model, robust meta-analytic prior, commensurate prior, and latent exchangeability prior for generalized linear models. It also extends these methods to survival models, including a proportional hazards model with a piecewise constant baseline hazard and a standard mixture cure rate model. The bulk of the package is written in the Stan programming language, with user-friendly R wrapper functions to call samplers. This presentation will demonstrate the package’s capabilities through applications to real clinical trial data.
+
+::: {.callout-note title="Stanley Lazic, Prioris.ai"}
+Biology-informed Bayesian models for interpretable cancer diagnosis
+:::
+
+While machine learning methods are increasingly applied to cancer diagnostics, logistic regression (LR) remains a strong baseline method, particularly when clinical datasets are small and noisy. However, standard LR models rarely incorporate prior biological knowledge, limiting their interpretability and domain relevance. We propose a Bayesian generalized additive model (GAM) framework that extends LR to include structured prior information reflecting biological constraints, such as directional effects (e.g. higher protein levels increase cancer risk), monotonicity, nonlinearity (e.g. threshold or saturation effects), and smoothness. These constraints are encoded via shape-restricted splines and informative priors, allowing the model to remain flexible while respecting known biological mechanisms. This approach preserves the transparency and robustness of LR while offering improved predictive performance and interpretability. We demonstrate how these models can serve as a principled alternative to black-box methods in clinical diagnostic settings, where trust and explainability are critical.
+
+::: {.callout-note title="Arya Pourzanjani, Daiichi Sankyo"}
+The Regularized Horseshoe for Covariate Selection Improves Convenience and Predictive Performance in Population PK/PD Models
+:::
+
+We introduce the Regularized Horseshoe (RHS) in the context of covariate
+selection for population PK/PD models. Unlike stepwise approaches which are
+commonly used in this context, the RHS can simultaneously assess all possible
+parameter-covariate relationships in a single model fit by leveraging the fact
+that such relationships are usually sparse in practice. Furthermore, the RHS
+avoids the over-estimation of effect sizes that commonly occurs with stepwise
+approaches, and avoids overfitting by averaging over the posterior uncertainty
+of possible parameter-covariate relationships. This leads to improved predictive
+performance on held-out data. 
+
+
+::: {.callout-note title="Andrew Woodward, University of Georgia"}
+Modelling Synergistic Dose-Response Relationships with Stan
+:::
+
+Combinations of therapeutics are common in oncology, but studying their effects implies experimental and statistical challenges. Drug synergy has been defined variably in the literature, often based on fairly direct manipulation of experimental data which is inefficient and not compatible with rich experimental designs. Recent developments have shown the flexibility of 2D-Hill models to extend empirical dose-response modeling to the case of simultaneous effects of two agents. Here, we illustrate the application of 2D-Hill models to dose-response modeling in a multilevel framework, implemented in Stan. The experimental data were obtained from a novel framework using canine bladder cancer organoids in 3D culture, exposed to cisplatin and ionizing radiation. A hierarchical observation model was implemented to accommodate between-subject and between-plate variation. Drug effects were defined with direct reference to controls. A weakly-informative prior model was emphasized. The completed analysis demonstrated varying potency and efficacy between clinical isolates. However, model critique showed that identifiability limitations were an important with the current data. The workflow shows promise as an efficient strategy to characterize combination drug effects in cancer isolates from clinical patients, with potential applications for therapeutic optimization. 
+
+::: {.callout-note title="Casey Davis, Daiichi Sankyo"}
+stanpmx.github.io - A Library of R Scripts, Model Files, and Tutorials to Enable a Fully Bayesian Pharmacometric Workflow in Stan
+:::
+
+Bayesian methods have had a slow but steady uptake in the pharmacometrics (PMx) community. There are still significant barriers for completely adopting these approaches for routine PMx workflows. Here we try to enhance Bayesian knowledge and understanding in both the general and pharmacometrics-specific sense and provide code to facilitate practical implementation of modeling using this approach. Once fully functional, the resource will contain models written in Stan/Torsten, R scripts to facilitate a fully Bayesian workflow, and tutorials that will help understand Bayesian methods as well as workflows for modeling and simulation needs.
 
 
 
