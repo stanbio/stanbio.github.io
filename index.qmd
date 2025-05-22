@@ -32,10 +32,9 @@ All times are in the US Eastern time zone (UTC−05:00). Click on the [Abstracts
 | 1:30–2:00    | hdbayes: An R Package for Bayesian Historical Data Borrowing with Stan                                 | Xinxin Chen                                                                                           | UNC at Chapel Hill                            |
 | 2:00–2:30    | Break                                                                                                  |                                       
 | 2:30–3:00    | Modelling Synergistic Dose-Response Relationships with Stan                                            | Andrew Woodward                                                                                       | University of Georgia                         |
-| 3:00–3:30    | sfgp: An R package for estimating tumor-size response to treatment using a hierarchical Bayesian semi-mechanistic model with GP-augmented parameters in Stan                                             | [Jacqueline Buros](https://www.linkedin.com/in/jacquelineburos/)                                                          | Generable                                     |                                                                |                                               |
-| 3:30–4:00    | Modelling Synergistic Dose-Response Relationships with Stan                                            | [Arya Pourzanjani](https://www.linkedin.com/in/mcmc/)                                                 | Daiichi Sankyo                                |
+| 3:00–3:30    | Nonparametric Bayesian multistate modeling with Stan  | [Juho Timonen](https://jtimonen.github.io/)                                                          | Generable                                     |                                                                |                                               |
+| 3:30–4:00    | The Regularized Horseshoe for Covariate Selection Improves Convenience and Predictive Performance in Population PK/PD Models | [Arya Pourzanjani](https://www.linkedin.com/in/mcmc/)                                                 | Daiichi Sankyo                                |
 | 4:00–4:30    | stanpmx.github.io - A Library of R Scripts, Model Files, and Tutorials to Enable a Fully Bayesian Pharmacometric Workflow in Stan | [Casey Davis](https://www.linkedin.com/in/casey-davis-45a25760/) | Daiichi Sankyo                                |
-
 
 ## Organizers
 
