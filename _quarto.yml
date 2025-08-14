@@ -11,7 +11,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - abstracts.qmd
+      - text: "Previous Conferences"
+        menu:
+          - previous/stanbio_connect_2025.qmd
+      - blog.qmd
       - about.qmd
 
 format:
