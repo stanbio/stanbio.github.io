@@ -15,6 +15,8 @@ website:
         menu:
           - previous/stanbio_connect_2025.qmd
       - blog.qmd
+      - href: resources.qmd
+        text: "Valuable Resources"
       - about.qmd
 
 format:

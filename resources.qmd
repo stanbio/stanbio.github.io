@@ -1,0 +1,15 @@
+---
+title: "Resources of Stan in biomedical applications"
+---
+
+# Stan
+- [**Stan**](https://mc-stan.org/)  
+    Stan is a probablistic programming language for specifying statistical models and performing Bayesian statistical inference. It is very well [documented](https://mc-stan.org/docs/) and has an active comunity of users and developers. Flexible model declaration makes if perfect for bio-medical use cases.
+- [**brms**](https://paulbuerkner.com/brms/)  
+    High-level modelling interface for Stan, which already implements a large variety of multivariate and multi-level models. Ideal as a first glimse into the Bayesian modelling work, if you are scared of defining own models.
+
+# Drug Development
+- [**Applied Modelling in Drug Development**](https://opensource.nibr.com/bamdd/)  
+    Material for using [brms](https://paulbuerkner.com/brms/) in context of drug-development.
+
+% Add further subtitles and content here
